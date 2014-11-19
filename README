@@ -1,9 +1,12 @@
-ds -- sum the digits of an integer
+ds -- sum the digits of a positive integer
 
 usage: ds n
-  n -- positive integer less than 2^64
+  n -- positive integer smaller than 2^64
 
-Examples:
+Just run `make' to build.
+`make clean' will delete the binary.
+
+Usage examples:
 
   $ ./ds 100
   1
