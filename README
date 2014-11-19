@@ -1,0 +1,15 @@
+ds -- sum the digits of an integer
+
+usage: ds n
+  n -- positive integer less than 2^64
+
+Examples:
+
+  $ ./ds 100
+  1
+
+  $ ./ds 123
+  6
+
+  $ ./ds 123456789
+  45
